@@ -2,7 +2,7 @@
 //  main.cpp
 //  Pong-Game-C++
 //
-//  Created by Sofiane Medhouny Laouina on 08/11/2024.
+//  Created by MEDLAO on 08/11/2024.
 //
 
 #include <iostream>
