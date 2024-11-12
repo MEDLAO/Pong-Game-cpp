@@ -66,8 +66,13 @@ public:
     }
 };
 
+class CpuPaddle: public Paddle{
+    
+};
+
 Ball ball;
 Paddle player;
+CpuPaddle cpu;
 
 int main(int argc, const char * argv[]) {
     cout << "Starting the game" << endl;
