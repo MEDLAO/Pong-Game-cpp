@@ -10,6 +10,11 @@
 
 using namespace std;
 
+Color Green = Color{38, 185, 154, 255};
+Color darkGreen = Color{20, 160, 133, 255};
+Color lightGreen = Color{129, 204, 184, 255};
+Color yellow = Color{243, 213, 91, 255};
+
 int player_score = 0;
 int cpu_score = 0;
 
@@ -20,7 +25,7 @@ public:
     int radius;
     
     void draw(){
-        DrawCircle(x, y, radius, WHITE);
+        DrawCircle(x, y, radius, yellow);
     }
     
     void update(){
@@ -71,7 +76,7 @@ public:
     int speed;
     
     void draw(){
-        DrawRectangle(x, y, width, height, WHITE);
+        DrawRectangleRounded(Rectangle{x, y, width, height}, 0.8, 0, WHITE);
     }
     
     void update(){
@@ -153,7 +158,9 @@ int main(int argc, const char * argv[]) {
         }
         
         //Drawing
-        ClearBackground(BLACK);
+        ClearBackground(darkGreen);
+        DrawRectangle(screen_width / 2, 0, screen_width / 2, screen_height, Green);
+        DrawCircle(screen_width / 2, screen_height / 2, 150, lightGreen);
         DrawLine(screen_width / 2, 0, screen_width / 2, screen_height, WHITE);
         ball.draw();
         cpu.draw();
