@@ -27,6 +27,7 @@
 		BFF3C5A52CDEC3F200CE1C33 /* Pong-Game-C++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Pong-Game-C++"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFF3C5A82CDEC3F200CE1C33 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BFF3C5B02CDFE33B00CE1C33 /* libraylib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libraylib.a; path = ../../../../../usr/local/Cellar/raylib/5.0/lib/libraylib.a; sourceTree = "<group>"; };
+		BFF3C5BB2CE913D500CE1C33 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +45,7 @@
 		BFF3C59C2CDEC3F200CE1C33 = {
 			isa = PBXGroup;
 			children = (
+				BFF3C5BB2CE913D500CE1C33 /* README.md */,
 				BFF3C5A72CDEC3F200CE1C33 /* Pong-Game-C++ */,
 				BFF3C5A62CDEC3F200CE1C33 /* Products */,
 				BFF3C5AF2CDFE1B000CE1C33 /* Frameworks */,
